@@ -20,8 +20,19 @@ Make sure to install all these in the ROS environment that you created while ins
 brew install eigen
 ```
 ### Pangolin
+The version of [Pangolin](https://github.com/stevenlovegrove/Pangolin) in the original repo does not build on my system. However I was able to find one that does work - [Pangolin that works on mac](https://github.com/ZhaoqunZhong/Pangolin). 
 ```
-add here
+# Get Pangolin
+cd ~/your_fav_code_directory
+git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
+cd Pangolin
+
+# Install dependencies
+./scripts/install_prerequisites.sh recommended
+
+# Configure and build
+cmake -B build
+cmake --build build
 ```
 ### OpenCV
 Check the OpenCV version on your computer (required at least 3.0):
