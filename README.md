@@ -1,5 +1,7 @@
 # ORB SLAM3 with ROS on Mac
-Instructions on how to run ORB_SLAM3 with ROS on Apple Silicon Macs. I have made the required changes in the files from [ORB-SLAM3-ROS](https://github.com/thien94/orb_slam3_ros) to get it to run on MacOS and tested on a M1 Macbook Air running MacOS Sonoma.
+Instructions on how to run ORB_SLAM3 with ROS on Apple Silicon Macs.
+
+I have taken the files from [ORB-SLAM3-ROS](https://github.com/thien94/orb_slam3_ros) and made some changes to get it to run on MacOS. Tested on a M1 Macbook Air running MacOS Sonoma.
 
 ## Installing ROS on Mac (skip ahead if already done)
 Follow the steps given here: [Installing ROS on Mac](https://atom-robotics-lab.github.io/wiki/markdown/ros/ROS_installation/installation_on_mac.html)
