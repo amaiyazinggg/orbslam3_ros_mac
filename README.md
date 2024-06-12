@@ -58,7 +58,7 @@ Refer to [ORB-SLAM3-ROS](https://github.com/thien94/orb_slam3_ros) for instructi
 - Changed -march=native to -mcpu=apple-m1 in `CMakeLists.txt`
 - Removed `#include <tr1/..>` from everywhere since I was not able to load the library and it is not required
 - Changed `stdint-gcc.h` to `stdint.h` since I am using clang and not gcc
-- Changed type from `float` to `double` in `common.cc` because it was leading to some type casting issues.
+- Changed type from `float` to `double` in `common.cc` because it led to some type casting issues.
 
 ## Issues
-The above mentioned fixes worked for me and may or may not work on your system. Raise an issue if any error pops up.
+The above-mentioned fixes worked for me and may or may not work on your system. There might be missing dependencies and C++ library issues, which you might encounter. Raise an issue if any error pops up.
